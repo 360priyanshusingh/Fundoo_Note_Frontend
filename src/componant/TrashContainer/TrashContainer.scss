@@ -1,0 +1,15 @@
+.trash-main-container-cnt{
+    display: flex !important ;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+@media only screen and (min-width:250px ) and (max-width:650px) {
+    
+    .trash-main-container-cnt{
+        display: flex !important ;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+
+}

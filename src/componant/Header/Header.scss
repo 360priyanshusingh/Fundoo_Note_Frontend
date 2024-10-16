@@ -1,0 +1,105 @@
+
+.keep-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+ 
+  }
+  
+  
+  .keep-header-left {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .keep-logo {
+
+    margin-left: 10px;
+  }
+  
+  .keep-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 8px;
+    color: #5f6368;
+  }
+  
+  .keep-header-left svg {
+    font-size: 1.8rem;
+    color: #5f6368;
+  }
+  
+  .keep-header-mid {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f4;
+    padding: 4px;
+    border-radius: 8px;
+    width: 70%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding-left: 8px;
+    width: 100%;
+    font-size: 1rem;
+    // color:gray;
+  }
+
+  
+  .search-bar input::placeholder {
+    color: #5f6368;
+    font-size: 0.95rem;
+  }
+  
+  .search-bar svg {
+    color: #5f6368;
+    font-size: 1.2rem;
+  }
+  
+  .keep-header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .keep-header-right .MuiIconButton-root {
+    color: #5f6368;
+    padding: 10px;
+  }
+  
+  .keep-header-right svg {
+    font-size: 1.6rem;
+  }
+  .search-bar-input{
+    padding: 10px;
+    margin: 3px;
+  }
+  .keep-leftdiv-header-right{
+    display: flex;
+    gap: 2px;
+   }
+  
+ @media only screen and (min-width: 250px) and (max-width: 650px) {
+   .keep-title {
+     display: none;
+   }
+ 
+   .keep-leftdiv-header-right{
+    display: none;
+   }
+ }  

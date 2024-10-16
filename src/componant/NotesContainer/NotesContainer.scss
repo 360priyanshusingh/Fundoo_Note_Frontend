@@ -1,0 +1,25 @@
+.notes-container-cnt{
+    display: flex !important ;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+.notes-addnotes-container-cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.notes-main-container-cnt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+@media only screen and ( min-width:250px ) and (max-width:650px){
+    .notes-container-cnt{
+        display: flex !important ;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+    
+}
